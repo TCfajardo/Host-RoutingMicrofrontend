@@ -1,9 +1,12 @@
 import React from 'react';
+import TagsComponent from 'mfTags/TagsComponent';
 
 const CharacteresPage = () => {
     return(
         <div>
-            Characteres Page
+            Gallery
+            <TagsComponent />
+            
         </div>
     );
 };

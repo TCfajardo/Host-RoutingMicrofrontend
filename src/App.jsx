@@ -7,6 +7,7 @@ import  NavBarComponent  from "mfNavBar/NavBarComponent";
 import HomePage from "./pages/HomePage";
 import AboutPage from './pages/AboutPage';
 import CharacteresPage from "./pages/CharacteresPage";
+import NotFound from "./pages/NotFound";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
       <Route path="/Home" element={<HomePage />} />
       <Route path="/Characters" element={<CharacteresPage />} />
       <Route path="/About" element={<AboutPage />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
 );
