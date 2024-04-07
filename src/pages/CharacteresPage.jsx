@@ -3,9 +3,12 @@ import TagsComponent from 'mfTags/TagsComponent';
 
 const CharacteresPage = () => {
     return (
-        <div style={{ padding: '50px' }}> 
+        <div style={{ textAlign: 'center' }}>
             <h1>Doggy Gallery</h1>
-            <TagsComponent />
+            <div style={{ padding: '7%' }}>
+            <TagsComponent  />
+            </div>
+            
         </div>
     );
 };

@@ -44,9 +44,9 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        mfNavBar: "mf_navbar@http://localhost:8083/remoteEntry.js",
-        mfTags : "mf_tags@http://localhost:8080/remoteEntry.js",
-        mfAbout : "mf_presenter@http://localhost:8084/remoteEntry.js",
+        mfNavBar: "mf_navbar@https://cute-travesseiro-0ef849.netlify.app/remoteEntry.js",
+        mfTags : "mf_tags@https://strong-speculoos-e3bd5e.netlify.app/remoteEntry.js",
+        mfAbout : "mf_presenter@https://zesty-concha-1eb9b0.netlify.app/remoteEntry.js",
       },
       exposes: {},
       shared: {
