@@ -1,16 +1,16 @@
 import React from 'react';
-import TagsComponent from 'mfTags/TagsComponent';
+import CardsComponent from 'mfTags/CardsComponent';
+import { PhotosProvider } from 'mfTags/useFetchPhotos'; 
 
-const CharacteresPage = () => {
-    return (
+const CharacteresPage = () => (
+    <PhotosProvider> 
         <div style={{ textAlign: 'center' }}>
-            <h1>Doggy Gallery</h1>
-            <div style={{ padding: '7%' }}>
-            <TagsComponent  />
+            <h1>Gallery</h1>
+            <div style={{ padding: '4%' }}>
+                <CardsComponent />
             </div>
-            
         </div>
-    );
-};
+    </PhotosProvider>
+);
 
 export default CharacteresPage;
